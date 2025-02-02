@@ -1,0 +1,12 @@
+section.Form {
+    background: rgb(1, 1, 1);
+}
+
+section.Form .text-3xl {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+}
+
+section.Form button#Submit-Btn:hover {
+    background-color: #c9fd02 ;
+}

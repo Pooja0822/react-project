@@ -1,0 +1,49 @@
+section.Partners{
+background: rgb(1, 1, 1);
+/* background: linear-gradient(180deg, rgba(107,91,45,50) 0%, rgba(0,0,0,1) 3%); */
+}
+
+section.Partners img {
+    height: auto;
+    width: 100%;
+}
+
+@media (width > 720px) {
+   section.Partners h2 , .Components h2 {
+        font-size: 2.25rem;
+    }
+}
+
+@media (width > 1020px) { 
+    section.Partners h2 , .Components h2 {
+        font-size: 3rem;
+    }
+}
+
+@media (width > 1200px) {    
+    section.Partners div.Partners-Logo-Div {
+        padding: 0 10rem;
+    }
+    section.Components h2.XL-Heading {
+        padding: 0 8rem;
+    }
+}
+
+section.Partners p.btn {
+    background-color: #c9fe02;
+}
+
+/* =========================== Components section  */
+
+.Components {
+    background-color: black;
+}
+
+.Icon-div {
+    /* width: ; */
+}
+
+#Icon {
+    height: auto;
+    width: 100%;
+}

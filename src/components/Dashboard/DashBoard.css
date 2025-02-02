@@ -1,0 +1,13 @@
+section.Dashboard {
+    background: rgb(1, 1, 1);
+}
+
+@media (width > 720px) {
+   section.Dashboard h2 {
+        font-size: 2.25rem;
+    }
+}
+
+section.Dashboard p.btn {
+    background-color: #c9fe02;
+}

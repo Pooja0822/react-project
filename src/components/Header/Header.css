@@ -1,0 +1,18 @@
+
+header {
+    position: fixed;
+    max-width: 1024px;
+    padding: 0.7rem 0;
+    background-color:  rgba(0, 0, 0, 0.8);
+    width: 100%;
+    z-index: 100;
+}
+
+@media screen and (width > 500px) {
+    header {
+        border-radius: 50rem; 
+        top:1.5rem;
+        left:0;
+        right: 0;
+    }  
+}

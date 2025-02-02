@@ -1,0 +1,35 @@
+
+section.Hero {
+    background-image: url('../../assets/img/Background\ Hero.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
+
+#BG-Img {
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+section.Hero div#Hero-div-1 {
+    max-width: 48rem;;
+}
+
+section.Hero h1 {
+    font-size: 2.25rem;
+}
+
+section.Hero p {
+    font-size: 1.25rem;
+    max-width: 528px;
+}
+
+@media screen and (width > 700px) {
+    section.Hero h1 {
+        font-size: 3.75rem !important;
+    }  
+
+}
