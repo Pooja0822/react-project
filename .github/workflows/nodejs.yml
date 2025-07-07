@@ -28,7 +28,7 @@ jobs:
 
       - name: nodejs script
         run: |
-         app.js | tee output.txt
+         react index.js | tee output.txt
         
 
       - name: Upload build artifacts
