@@ -1,4 +1,4 @@
-name: Node.js CI
+name: React Build Workflow
 
 on:
   push:
@@ -23,16 +23,12 @@ jobs:
       - name: Run tests
         run: npm test
 
-      - name: Build project
-        run: npm run build 
+      - name: Build React app
+        run: npm run build
 
-      - name: nodejs script
-        run: |
-         react index.js | tee output.txt
-        
-
-      - name: Upload build artifacts
+      - name: Upload production build
         uses: actions/upload-artifact@v4
         with:
-          name: Build
-          path: output.txt 
+          name: React-Build
+          path: build  
+
